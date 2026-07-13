@@ -1,0 +1,138 @@
+HTML=======================================================>
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d1">
+      
+      <nav>
+        <a class="comp-logo" href="#"><h3>ANYCOMPANY</h3></a>
+        <ul class="h-nav">
+          <li class="h-items">
+            <a class="h-links" href="#">Home</a>
+          </li>
+          <li class="h-items">
+            <a class="h-links" href="#">About</a>
+          </li>
+          <li class="h-items">
+            <a class="h-links" href="#">Services</a>
+          </li>
+          <li class="h-items dropdown">
+            <a class="h-links" href="#">Courses</a>
+
+            <ul class="v-nav">
+              <li class="v-items">
+                <a href="#">HTML</a>
+              </li>
+              <li class="v-items">
+                <a href="#">CSS</a>
+              </li>
+              <li class="v-items">
+                <a href="#">Bootstrap</a>
+              </li>
+              <li class="v-items">
+                <a href="#">Javascript</a>
+              </li>
+              <li class="v-items">
+                <a href="#">React</a>
+              </li>
+            </ul>
+
+          </li>
+          <li class="h-items">
+            <a class="h-links" href="#">Faculty</a>
+          </li>
+          <li class="h-items">
+            <a class="h-links" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      
+    </div>
+  </body>
+</html>
+
+
+
+
+CSS=========================================================>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comp-logo{
+    margin-left: 10px;
+}
+
+h3{
+    color: white;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.h-nav{
+    display: flex;
+    
+}
+
+.h-items{
+    width: 110px;
+    list-style: none;
+    padding: 15px;
+}
+
+.h-items:hover{
+    background-color: rgb(184, 5, 5);
+}
+.h-links{
+    color: white;
+    text-decoration: none;
+}
+
+.v-nav{
+    position: absolute;
+    top: 68px;
+    right: 240px;
+    background-color:  rgb(184, 5, 5);
+    list-style: none;
+    width: 110px;
+    display: none;
+}
+
+.v-items{
+    padding: 15px;
+}
+
+.v-items:hover{
+    border-bottom: 1px solid white;
+}
+
+.dropdown:hover .v-nav{
+
+    display: block;
+}

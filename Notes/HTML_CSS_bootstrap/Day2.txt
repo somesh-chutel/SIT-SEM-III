@@ -1,5 +1,7 @@
 HTML================================================>
 
+Layout 1 :
+-----------
 
 <!doctype html>
 <html lang="en">
@@ -78,3 +80,132 @@ header,footer{
     border: 2px solid rgb(255, 255, 255);
 }
 
+
+############################################################################################################
+
+HTML======================================================> 
+
+Layout 2 : 
+--------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="d1">
+
+        <header></header>
+
+        <section>
+
+            <div class="left"></div>
+
+            <div class="center"></div>
+
+            <div class="right">
+
+                <div class="top"></div>
+
+                <div class="bottom">
+
+                    <div class="b-left"></div>
+
+                    <div class="b-right"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer></footer>
+
+    </div>
+    
+</body>
+</html>
+
+
+CSS================================================================>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+}
+
+header,footer{
+    width: 100%;
+    height: 10%;
+}
+header{
+    background-color: tomato;
+}
+
+section{
+    width: 100%;
+    height: 80%;
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
+.center{
+    width: 30%;
+    height: 100%;
+    background-color: violet;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(110, 48, 110);
+    padding: 10px;
+}
+
+.top,.bottom{
+    width: 100%;
+    height: 50%;
+}
+
+.top{
+    background-color: slategray;
+}
+.bottom{
+    background-color: rgb(61, 140, 220);
+    padding: 10px;
+    display: flex;
+}
+
+.b-left{
+    width: 70%;
+    height: 100%;
+    background-color: sienna;
+}
+
+.b-right{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(213, 147, 117);
+}
+
+
+footer{
+    background-color: rgb(137, 53, 38);
+}
