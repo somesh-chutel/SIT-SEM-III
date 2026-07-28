@@ -1,0 +1,74 @@
+//Bomb Application:
+
+
+// let useInputEl = document.getElementById("useInput");
+
+// let timerEl = document.getElementById("timer");
+
+// let resultEl = document.getElementById("result");
+
+// let contdown = 10;
+
+
+// let intervalId = setInterval(()=>{
+
+//     contdown  = contdown - 1; //we decreasing countdown value by 1 on each second with the help of setInterval.
+
+//     timerEl.textContent = contdown; //and here we are storing the updated coundown value into our result element.
+
+// },1000)
+
+
+
+// function onchangeUserIn(event){
+
+//     if(event.key==="Enter"){
+
+//         if(event.target.value==="defuse"){
+//             clearInterval(intervalId);
+//         }
+//         else{
+//             resultEl.textContent = "BOOM!!!!!!!"
+//             clearInterval(intervalId);
+//         }
+
+//     }
+
+    
+
+// }
+
+
+
+
+// useInputEl.addEventListener("keyup",onchangeUserIn);
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
+// let myContainerEl = document.getElementById("myContainer");
+
+
+// //For craeting new element using javascript we use "document.craeteElement("tag name")"--->syntax;
+
+// let dynamicHeading = document.createElement("h1");
+
+// dynamicHeading.textContent = "Dynamic Heading";
+
+// //For displaying dynamiclly created element in our UI we use " selected element.appendChild(variable name) "---syntax
+
+// myContainerEl.appendChild(dynamicHeading);//here we are appending dynamic element to our html container element 
+
+// //For removing Dynamically created element we use "selected element.removeChild(variable name)"----syntax
+
+
+
+
+// function onRemoveDynEl(){
+
+//     myContainerEl.removeChild(dynamicHeading);// here we are removing dynamic element from container
+
+// }
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------

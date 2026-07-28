@@ -1,0 +1,97 @@
+// let chnageTheBgColor = function(){
+
+//     return "Hello World";
+
+// }
+
+// let chnageTheBgColor1 = () => { } //Arrow Function
+
+//     let a = 3
+
+//     function addNumbers (){
+
+//         return a+4;
+//     
+
+
+//     return addNumbers();
+
+
+// } 
+
+
+// console.log(chnageTheBgColor());
+
+// console.log(chnageTheBgColor1());
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+//setTimeOut and setInterval : 
+
+
+// let timeoutId = setTimeout(()=>{
+
+//     console.log("SetTimeout Running")
+
+// },3000)  // setimeOut will execute only single time ok as per given delay time.
+
+
+// clearTimeout(timeoutId)
+
+
+
+
+//  let intervalId = setInterval(()=>{
+
+//     console.log("SetInterval Running")
+
+// },3000) //setInter will excute sevral time at the given interval and we can stop it whenever we want.
+
+
+// function onStopeInterval(){
+
+//         clearInterval(intervalId); //here we are terminating the set interval function by using clearInterval
+
+// }
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+// //How to add eventListner to button element :
+
+// let myBtnEl = document.getElementById("myBtn");
+
+// let useInputEl = document.getElementById("useInput");
+
+
+// // variable.addEventListner(event,function); ---->syntax
+
+
+// function onClickBtn(){
+//     console.log("event listner working properly")
+// }
+
+
+
+
+// myBtnEl.addEventListener("click",onClickBtn);
+
+
+
+// let onChnageUserInput =(event)=>{
+//     console.log(event);
+// }
+
+
+
+// useInputEl.addEventListener("change",(event)=>{
+//     console.log(event);
+// });
+
+
+
+
+
+
+

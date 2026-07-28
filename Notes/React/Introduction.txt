@@ -1,0 +1,150 @@
+<--------------------What is React?------------------>
+                    ***************
+
+React is a JavaScript library for building user interfaces.
+React is used to build single-page applications.
+React allows us to create reusable UI components.
+
+React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
+React is a tool for building UI components.
+
+--------------------------------------------------------------------------------------------------------------
+
+How does React Work? 
+===================
+
+React creates a VIRTUAL DOM in memory. 
+Instead of manipulating the browser's DOM directly, 
+React creates a virtual DOM in memory, where it does all the necessary manipulations, 
+before making the changes in the browser DOM.
+
+
+React only changes what needs to be changed! 
+React finds out what changes have been made, and changes only what needs to be changed.
+
+--------------------------------------------------------------------------------------------------------------
+
+React.JS History :
+=================
+
+Current version of React.JS is V19.2 (December 2025).
+
+Initial Release to the Public (V0.3.0) was in July 2013.
+
+React.JS was first used in 2011 for Facebook's Newsfeed feature.
+
+Facebook Software Engineer, Jordan Walke, created it.
+
+create-react-app includes built tools such as webpack, Babel, and ESLint.
+
+
+Major Features Of React :
+=========================
+
+* JSX(JavaScript Syntax Extension) or XML
+ 
+* Virtual DOM
+ 
+* One-way data binding
+ 
+* Component-Based Architecture
+ 
+* Performance
+ 
+* Simplicity
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Setting up a React Environment :
+==============================
+
+If you have npx and Node.js installed, you can create a React application by using create-react-app. 
+
+Run this command into your VS Code terminal : npx create-react-app@latest OR npm create vite@latest 
+
+for command npm create vite@lates you have to follow some steps which is given below.
+
+give your project name.
+select the library 
+select the language  
+
+Run the React Application
+Now you are ready to run your first real React application!
+
+Run this command to move to the my-react-app directory:
+
+For Plain React you can run below command : 
+
+cd my-react-app
+npm start
+
+
+For Plain React+vite you can run below command : 
+
+cd my-react-app
+npm run dev
+
+
+
+======================VITE========================================
+
+Vite is a modern build tool and development server designed to provide
+ a faster and leaner development experience for web projects, 
+ including those built with React. It accelerates the development 
+ process for React applications by offering several key advantages 
+ over older tools like Create React App.
+
+Here's a breakdown of Vite's role with React:
+
+Fast Development Server: 
+Vite leverages native ES Modules in the browser, 
+eliminating the need for bundling during development. 
+This results in extremely fast server startup times and 
+near-instantaneous Hot Module Replacement (HMR), where changes 
+in your code are reflected in the browser without a full page reload.
+
+Optimized for Production: 
+While development uses native ES Modules, Vite utilizes Rollup 
+(and esbuild for pre-bundling dependencies) to create highly optimized 
+production builds. It handles code-splitting, tree-shaking, and other 
+optimizations to ensure your deployed React application is efficient and performs well.
+
+Simplified Setup: 
+Vite offers a quicker and more streamlined setup process 
+for new React projects compared to previous methods, often requiring 
+just a few commands to get a project running.
+
+Out-of-the-Box Support: 
+Vite provides built-in support for various modern web technologies, 
+including JSX (for React components), TypeScript, CSS preprocessors, 
+and more, making it easy to work with these tools in your React projects.
+
+Flexible Plugin System: 
+Vite has a robust plugin system that allows for customization and 
+integration with other tools and features, further enhancing its capabilities 
+for React development.
+
+
+
+===========================Eslint==================================
+
+ESLint in React is a static code analysis tool that helps identify and 
+fix problematic patterns in your JavaScript and JSX code, ensuring high 
+standards for code quality, consistency, and readability within your React projects.
+
+--------------------------------------------------------------------------------------------------------------
+
+2011-------> Facbook-------> For resolution of newsfeed feature : 
+
+2--->post update 
+1--->post like 
+1--->application update 
+1--->comment in post
+
+
+notification                        messanger                    frnd Request
+
+
+95625                                   0                              0
+

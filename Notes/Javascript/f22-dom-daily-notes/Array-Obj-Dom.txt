@@ -1,0 +1,68 @@
+// How to create random number and will create game based on the concept:
+
+// syntax of random number genrator ---> Math.random()----->it will genrate random number from 0 to 1 : 
+
+// let errorMsgEl = document.getElementById("errorMsg");
+
+// let randomNumber  = Math.ceil(Math.random()*100);
+
+// errorMsgEl.textContent = randomNumber;
+
+//------------------------------------------------------------------------------------------------------
+
+// How to use array in DOM : 
+
+// let bgContainerEl = document.getElementById("bgContainer");
+
+// let colorArray = ["red","green","yellow","pink","blue","orange","black","purple"];
+
+// let lenOfArray = colorArray.length - 1
+
+
+// function chnageTheBgColor(){
+
+//     let randomnumber = Math.ceil(Math.random()*lenOfArray);
+
+//     we are getting the index value of an array
+
+//     bgContainerEl.style.backgroundColor = colorArray[randomnumber]; 
+
+//     console.log(randomnumber);
+
+// }
+
+
+
+//---------------------------------------------------------------------------------------------------------
+
+//How tp use Object in Dom : 
+
+// let nameEl = document.getElementById("name");
+// let ageEl = document.getElementById("age");
+// let locationEl = document.getElementById("location");
+
+// let personObj = {
+//     name: "Ajay",
+//     info:{
+//         age:36,
+//         location:"nagpur"
+//     },
+//     hobbies:["singing","dancing","treveling"]
+// }
+
+// function chnageTheBgColor(){
+//     nameEl.textContent = personObj.name;
+
+//     ageEl.textContent = personObj.info.age;
+
+//     locationEl.textContent = personObj.hobbies[0];
+
+// }
+
+
+// client---->url hit----->server------>RDMS----->database
+
+// userData Request------------>database jsonObject return
+
+
+
